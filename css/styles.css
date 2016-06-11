@@ -26,3 +26,46 @@
 .clickable:hover {
   text-decoration-color: underline;
 }
+
+#question1 {
+  margin: 12px;
+  border: 2px solid black;
+  padding: 4px;
+  background-color: aqua;
+}
+
+#question2 {
+  margin: 12px;
+  border: 2px solid black;
+  padding: 4px;
+  background-color: springgreen;
+}
+
+#question3 {
+  margin: 12px;
+  border: 2px solid black;
+  padding: 4px;
+  background-color: orchid;
+}
+
+#question4 {
+  margin: 12px;
+  border: 2px solid black;
+  padding: 4px;
+  background-color: lightcoral;
+}
+
+#question5 {
+  margin: 12px;
+  border: 2px solid black;
+  padding: 4px;
+  background-color: orange;
+}
+
+.btn {
+    padding: 14px 24px;
+    border: 2px solid black;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}

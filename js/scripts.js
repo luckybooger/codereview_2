@@ -24,8 +24,8 @@ $(function(){
 
   $(".clickable").click(function(){
     $(".intially-hidden").fadeIn();
-  })
 
+})
 
 
     event.preventDefault();
