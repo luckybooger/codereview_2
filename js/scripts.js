@@ -9,7 +9,7 @@ $(function(){
     var food = parseInt($("#food").val());
     var transportation = parseInt($("input:radio[name=transportation]:checked").val());
     var lodging = parseInt($("input:radio[name=lodging]:checked").val());
-    
+
     var destination = daytime + location + food + transportation + lodging;
 
     if (destination <= 17) {
@@ -21,6 +21,12 @@ $(function(){
     } else if (destination >= 29 && destination <=32){
       $("#losangeles").show();
     }
+
+  $(".clickable").click(function(){
+    $(".intially-hidden").fadeIn();
+  })
+
+
 
     event.preventDefault();
 
