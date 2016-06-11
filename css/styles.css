@@ -1,3 +1,8 @@
+body {
+  font-family: futura;
+  background-color: lightcyan;
+}
+
 #hawaii {
   display: none;
 }
@@ -16,6 +21,7 @@
 
 .intially-hidden {
   display: none;
+  padding: 30px;
 }
 
 .clickable {
@@ -45,7 +51,7 @@
   margin: 12px;
   border: 2px solid black;
   padding: 4px;
-  background-color: orchid;
+  background-color: orange;
 }
 
 #question4 {
@@ -59,7 +65,7 @@
   margin: 12px;
   border: 2px solid black;
   padding: 4px;
-  background-color: orange;
+  background-color: orchid;
 }
 
 .btn {
@@ -68,4 +74,15 @@
     font-weight: 700;
     letter-spacing: 1px;
     text-transform: uppercase;
+    background-color: skyblue;
+}
+
+.result {
+  margin: 4px;
+  padding: 100px 30px;
+}
+
+img {
+  width: 500px;
+  height: auto;
 }
